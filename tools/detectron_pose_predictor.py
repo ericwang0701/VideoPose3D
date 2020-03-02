@@ -172,8 +172,8 @@ if __name__ == '__main__':
 
 	# Predict poses and save the result:
 	# img_generator = read_images('./images')    # read images from a directory
-	img_generator = read_video('./videos/demo_test2.mp4')  # or get them from a video
-	output_path = './output_2d/pose2d'
+	img_generator = read_video('../videos/demo_test2.mp4')  # or get them from a video
+	output_path = '../pose2d'
 	predict_pose(pose_predictor, img_generator, output_path)
 
 

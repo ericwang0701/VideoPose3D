@@ -88,7 +88,7 @@ def render_animation(keypoints, keypoints_metadata, poses, skeleton, fps, bitrat
         ax.set_xlim3d([-radius/2, radius/2])
         ax.set_zlim3d([0, radius])
         ax.set_ylim3d([-radius/2, radius/2])
-        ax.set_aspect('equal')
+        ax.set_aspect('equal') #might need to comment out this for matplotlib >2.2 version
         ax.set_xticklabels([])
         ax.set_yticklabels([])
         ax.set_zticklabels([])
